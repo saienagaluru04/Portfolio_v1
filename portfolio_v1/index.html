@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ea248414c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Portfolio.</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software developer</p>
+                <h1>Hi, I'm <span>Saikumar Enagaluru</span><br>From Bangalore</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sai.jpeg.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem, dicta soluta, adipisci similique ducimus voluptatem corporis, id aut optio dignissimos eius ullam! Eius eum fugit impedit quo, molestiae dolorum.
+                    Laudantium consequuntur atque, dolorum ut, nisi rerum tenetur repudiandae at sit quod cupiditate eius porro eum distinctio. Quaerat ut totam, consequatur voluptas corporis perspiciatis quis, alias non esse iure nostrum.
+                    Dolorum laudantium id atque temporibus ea facilis. Sapiente quo harum blanditiis minus a dignissimos assumenda. Eaque nam exercitationem, commodi, soluta ex ipsum blanditiis, est temporibus dolore laborum maxime veritatis iure!
+                    Et laborum quae quasi quibusdam, maiores, doloribus, tempore assumenda eveniet illo nulla harum accusantium expedita animi. Accusamus aperiam aut vel tempora totam cumque fugit id quae voluptatem, iusto ea veniam?
+                    Aliquid atque facere officia iusto maiores laudantium similique placeat, numquam commodi quis eius odio, tempora eligendi consectetur impedit labore, alias soluta eos molestiae sit. At aut et sequi natus quasi.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web applications.</li>
+                            <li><span>Web Development</span><br>Designing web applications.</li>
+                            <li><span>App Development</span><br>Designing web applications.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Trainee Engineer (Remote) - Jatayuv.ai</span><br>Building scable inhouse tools for web scraping of data and cleaning the data, performing insertions of bulk data into database using python scripts.</li>
+                            <li><span>Python Full Stack - Jspiders</span><br>Designing web applications.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2024 (B-Tech-ECE)</span><br>Geethanjali Institute of Science and Technology</li>
+                            <li><span>2018 - 2021 (Diploma-ECE)</span><br>Audisankara College of Engineering and Technology</li>
+                            <li><span>2017 - 2018 (SSC)</span><br>ZPP High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- My Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis esse iusto laborum itaque quia voluptate rerum labore ab adipisci deserunt quae corporis, eveniet, odit soluta, sapiente expedita aperiam. Molestiae, maxime.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis esse iusto laborum itaque quia voluptate rerum labore ab adipisci deserunt quae corporis, eveniet, odit soluta, sapiente expedita aperiam. Molestiae, maxime.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Software Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis esse iusto laborum itaque quia voluptate rerum labore ab adipisci deserunt quae corporis, eveniet, odit soluta, sapiente expedita aperiam. Molestiae, maxime.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/todo.webp" alt="" width="276px" height="250px">
+                    <div class="layer">
+                        <h3>To-Do List</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut consequuntur nobis recusandae repudiandae quo odio tenetur corrupti perferendis</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio.jpeg" alt="">
+                    <div class="layer">
+                        <h3>To-Do List</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut consequuntur nobis recusandae repudiandae quo odio tenetur corrupti perferendis</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio.jpeg" alt="">
+                    <div class="layer">
+                        <h3>To-Do List</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut consequuntur nobis recusandae repudiandae quo odio tenetur corrupti perferendis</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- Contact Form -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>saienagaluru04@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8297268284</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="" placeholder="Your Email" required>
+                        <textarea name="message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="copyright">
+        <p>Copyright ©️ Saikumar. All Rights are Reserved.</p>
+    </div>
+    
+
+
+
+
+
+
+
+    <!-- JavaScript Code -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for (tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+</body>
+</html>
