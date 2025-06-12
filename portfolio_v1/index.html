@@ -12,14 +12,16 @@
         <div class="container">
             <nav>
                 <h1 class="logo">Portfolio.</h1>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#">Skills</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Software developer</p>
@@ -149,6 +151,7 @@
                 <div class="contact-right">
                     <form>
                         <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="number" name="Mobile" placeholder="Your Mobile Number">
                         <input type="email" name="email" id="" placeholder="Your Email" required>
                         <textarea name="message" rows="10" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
@@ -187,6 +190,18 @@
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
 
+        }
+        
+    </script>
+    <script>
+        // The below function is mobile application for opening and closing the menu tab.
+        var smenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            smenu.style.right = "0";
+        }
+        function closemenu(){
+            smenu.style.right = "-200px";
         }
     </script>
 </body>
