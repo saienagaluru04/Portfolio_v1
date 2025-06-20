@@ -15,8 +15,8 @@
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#services">Services</a></li>  
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -24,8 +24,15 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Software developer</p>
-                <h1>Hi, I'm <span>Saikumar Enagaluru</span><br>From Bangalore</h1>
+                <p>Hello, It's me</p>
+                <h1><span>SAIKUMAR ENAGALURU</span></h1>
+                <h3>And I'm a <span>Software Developer</span></h3>
+                <P id="head-para">I'm a web designer with extensive experience for over 1year,<br>expertise is to create and website design,front-end design, and <br>many more.....</P>
+                <div class="icons">
+                    <a href="" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sai-kumar-enagaluru-1594a626a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
             </div>
         </div>
     </div>
@@ -38,35 +45,39 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem, dicta soluta, adipisci similique ducimus voluptatem corporis, id aut optio dignissimos eius ullam! Eius eum fugit impedit quo, molestiae dolorum.
-                    Laudantium consequuntur atque, dolorum ut, nisi rerum tenetur repudiandae at sit quod cupiditate eius porro eum distinctio. Quaerat ut totam, consequatur voluptas corporis perspiciatis quis, alias non esse iure nostrum.
-                    Dolorum laudantium id atque temporibus ea facilis. Sapiente quo harum blanditiis minus a dignissimos assumenda. Eaque nam exercitationem, commodi, soluta ex ipsum blanditiis, est temporibus dolore laborum maxime veritatis iure!
-                    Et laborum quae quasi quibusdam, maiores, doloribus, tempore assumenda eveniet illo nulla harum accusantium expedita animi. Accusamus aperiam aut vel tempora totam cumque fugit id quae voluptatem, iusto ea veniam?
-                    Aliquid atque facere officia iusto maiores laudantium similique placeat, numquam commodi quis eius odio, tempora eligendi consectetur impedit labore, alias soluta eos molestiae sit. At aut et sequi natus quasi.</p>
+                    <p
+                    >I am Sai kumar, recently completed my graduation in Electronics & Communication Engineering at Geethanjali Institute of Science and Technology.
+                        And I am trained full-stack developer, where I have gained a solid foundation in programming and software engineering.
+                        I excel in full-stack web development, possessing a deep understanding of both front-end and back-end technologies. On the front-end, 
+                        I'm adept at crafting intuitive user interfaces using HTML, CSS, and JavaScript frameworks like React js. I have an eye for design and ensure that 
+                        the user experience is seamless and engaging. When it comes to the back-end, I'm proficient in server-side programming languages such as Python, 
+                        along with framework Django. I have experience handling database management using SQL databases like MySQL. Moreover, I am well-versed in version 
+                        control systems like Git, which allows for efficient collaboration and code management within development teams.</p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <!-- <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> -->
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
-                    <div class="tab-contents active-tab" id="skills">
+                    <!-- <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>UI/UX</span><br>Designing web applications.</li>
                             <li><span>Web Development</span><br>Designing web applications.</li>
                             <li><span>App Development</span><br>Designing web applications.</li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Trainee Engineer (Remote) - Jatayuv.ai</span><br>Building scable inhouse tools for web scraping of data and cleaning the data, performing insertions of bulk data into database using python scripts.</li>
-                            <li><span>Python Full Stack - Jspiders</span><br>Designing web applications.</li>
+                            <li><span>Trainee Engineer (Remote) - Jatayuv.ai</span><br>Built robust web scraping applications using Python and Selenium to automate data collection from travel websites.Designed and managed MySQL databases, including crafting Entity Relationship Diagrams (ERDs) to optimize data structure and relationships. <br>
+                                Developed backend logic for data ingestion, cleaning, and storage, ensuring scalability and maintainability.Collaborated with the development team using GitHub for version control and Jira for agile task tracking. <br>Gained practical experience in backend architecture, data workflows, and team-based software development.</li>
+                            <li><span>Python Full Stack - Jspiders</span><br>Designing web applications involves creating user-friendly interfaces and efficient backend systems to deliver seamless online experiences. It combines front-end design, backend development, and database integration to meet user and business needs.</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2021 - 2024 (B-Tech-ECE)</span><br>Geethanjali Institute of Science and Technology</li>
-                            <li><span>2018 - 2021 (Diploma-ECE)</span><br>Audisankara College of Engineering and Technology</li>
-                            <li><span>2017 - 2018 (SSC)</span><br>ZPP High School</li>
+                            <li><span>Geethanjali Institute of Science and Technology</span><br>Bachelor's degree (ECE) <br>2021 - 2024</li>
+                            <li><span>Audisankara College of Engineering and Technology</span><br>Diploma <br>2018 - 2021 </li>
+                            <li><span>ZPP High School</span><br>SSC<br>2017 - 2018</li>
                         </ul>
                     </div>
                 </div>
@@ -76,27 +87,33 @@
     <!-- My Services -->
      <div id="services">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
+            <h1 class="sub-title side-heading">My Services</h1>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Designing</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis esse iusto laborum itaque quia voluptate rerum labore ab adipisci deserunt quae corporis, eveniet, odit soluta, sapiente expedita aperiam. Molestiae, maxime.</p>
+                    <h2>Full-Stack Developer</h2>
+                    <p>In full stack development, I excel at crafting seamless and efficient web applications. Combining strong front-end design with robust back-end architecture, I utilize tools like React, Django, and SQL to deliver scalable and user-friendly solutions. From conceptualizing features to deploying production-ready code.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
-                    <i class="fa-solid fa-crop-simple"></i>
-                    <h2>Web Development</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis esse iusto laborum itaque quia voluptate rerum labore ab adipisci deserunt quae corporis, eveniet, odit soluta, sapiente expedita aperiam. Molestiae, maxime.</p>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Front-End Developer</h2>
+                    <p>I have a strong proficiency in front-end development, specializing in crafting engaging user interfaces using HTML, CSS, and JavaScript frameworks like React.js. With a keen eye for design aesthetics and usability, I ensure that every aspect of the interface enhances the user experience.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-app-store-ios"></i>
-                    <h2>Software Development</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis esse iusto laborum itaque quia voluptate rerum labore ab adipisci deserunt quae corporis, eveniet, odit soluta, sapiente expedita aperiam. Molestiae, maxime.</p>
+                    <h2>Python Developer</h2>
+                    <p>In Python development, I excel at building efficient and scalable solutions. With expertise in libraries like NumPy, Pandas, and Django, I create everything from data-driven applications to web services. From writing clean, modular code to integrating APIs and automating workflows.</p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
+        </div>
+     </div>
+     <!-- My Skills -->
+     <div id="skills">
+        <div class="container">
+            <h1 class="sub-title side-heading">My Skills</h1>
         </div>
      </div>
     <!-- Portfolio -->
@@ -108,28 +125,28 @@
                     <img src="images/todo.webp" alt="" width="276px" height="250px">
                     <div class="layer">
                         <h3>To-Do List</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut consequuntur nobis recusandae repudiandae quo odio tenetur corrupti perferendis</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>A To-Do List is a simple application that helps users organize and track tasks they need to complete. It typically allows adding, editing, marking as complete, and deleting tasks.</p>
+                        <a href="https://github.com/saienagaluru04/ToDoList_Project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/portfolio.jpeg" alt="">
                     <div class="layer">
-                        <h3>To-Do List</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut consequuntur nobis recusandae repudiandae quo odio tenetur corrupti perferendis</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Portfolio</h3>
+                        <p>A Portfolio is a personal website or digital collection showcasing your skills, projects, and achievements. It highlights your experience and capabilities, often including your resume, work samples, and contact information for potential employers or clients.</p>
+                        <a href="https://github.com/saienagaluru04/Portfolio_v1" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/portfolio.jpeg" alt="">
+                    <img src="images/leave.png" alt="">
                     <div class="layer">
-                        <h3>To-Do List</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut consequuntur nobis recusandae repudiandae quo odio tenetur corrupti perferendis</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Leave_Management_System</h3>
+                        <p>A Leave Management System is a back-end logic that allows employees to apply for leaves and managers to approve or reject them. It streamlines leave tracking, balances, approvals, and generates reports to manage attendance efficiently within an organization.</p>
+                        <a href="https://github.com/saienagaluru04/Leave_Management_System" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
+            <a href="https://github.com/saienagaluru04" target="_blank" class="btn">See more</a>
         </div>
     </div>
     <!-- Contact Form -->
@@ -144,18 +161,19 @@
                     <a href=""><i class="fa-brands fa-square-facebook"></i></a>
                     <a href=""><i class="fa-brands fa-square-twitter"></i></a>
                     <a href=""><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/sai-kumar-enagaluru-1594a626a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
-                <a href="" download class="btn btn2">Download CV</a>
+                <a href="images/Sai Resume (2).pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="number" name="Mobile" placeholder="Your Mobile Number">
-                        <input type="email" name="email" id="" placeholder="Your Email" required>
-                        <textarea name="message" rows="10" placeholder="Your Message"></textarea>
+                        <input type="number" name="Mobile" placeholder="Your Mobile Number" required>
+                        <input type="email" name="Email" id="" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message" required></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
@@ -165,11 +183,6 @@
         <p>Copyright ©️ Saikumar. All Rights are Reserved.</p>
     </div>
     
-
-
-
-
-
 
 
     <!-- JavaScript Code -->
@@ -203,6 +216,24 @@
         function closemenu(){
             smenu.style.right = "-200px";
         }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwBsbj7Jo2cN6yQCgJfBvxU4nCJDdE494cyNYFPrZ5S4tUvf00O-35owfeJoOCzuK2jWA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg  = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
     </script>
 </body>
 </html>
